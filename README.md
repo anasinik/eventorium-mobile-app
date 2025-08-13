@@ -4,16 +4,14 @@
 [![Unlicense License][license-shield]][license-url]
 [![Last Commit][last-commit-shield]][last-commit-url]
 
-
 <div align="center">
   <h1 align="center">EVENTORIUM</h1>
   <p align="center">
     <br />
-    <a href="https://github.com/kzi-nastava/ma-project-event-planner-siit-2024-team-13/issues/new?labels=bug">Report Bug</a>
+    <a href="https://github.com/anasinik/eventorium-mobile-app/issues/new?labels=bug">Report Bug</a>
     <a href="https://www.youtube.com/watch?v=QiGeygigk-w">Demo</a>
   </p>
 </div>
-
 
 <details>
   <summary>Table of Contents</summary>
@@ -35,9 +33,6 @@
   </ol>
 </details>
 
-
-
-
 ## 📋 About The Project
 
 Welcome to the Eventorium project! This is the mobile application for Eventorium, an event planning platform designed to streamline the organization of various events such as weddings, corporate gatherings, and birthday parties. Our mobile app, built for Android, offers a seamless and user-friendly experience to help you plan your events with ease.
@@ -50,15 +45,15 @@ Happy planning with Eventorium! 🎉
 
 This project is built using the following core technologies:
 
- [![Android][android-shield]][android-url]
+[![Android][android-shield]][android-url]
 
- [![Java][java-shield]][java-url]
+[![Java][java-shield]][java-url]
 
- [![Android Studio][studio-shield]][studio-url]
+[![Android Studio][studio-shield]][studio-url]
 
- [![Gradle][gradle-shield]][gradle-url]
+[![Gradle][gradle-shield]][gradle-url]
 
- [![XML][xml-shield]][xml-url]
+[![XML][xml-shield]][xml-url]
 
 ## 🚀 Getting Started
 
@@ -77,28 +72,29 @@ Optional:
 
 - 🧪 USB Debugging enabled on your Android device (for real device deployment)
 
-
 ### 🛠️ Installation Steps
 
 1. 🔁 Clone the repository
 
 ```sh
-git clone https://github.com/kzi-nastava/ma-project-event-planner-siit-2024-team-13.git
+git clone https://github.com/anasinik/eventorium-mobile-app.git
 ```
 
 2. 🧰 Open the project in Android Studio
 
 - Launch Android Studio
 - Click "Open"
-- Select the `ma-project-event-planner-siit-2024-team-13` directory
+- Select the `eventorium-mobile-app` directory
 
 3. ⏳ Wait for Gradle to sync and build
 4. 🔐 Update `local_properties` with the (backend) `ip_addr` and `secret`.
-- Make sure to use the same `secret` value that's defined in the backend configuration. 
+
+- Make sure to use the same `secret` value that's defined in the backend configuration.
+
 5. 📱 Run the application
 
 - Connect a physical Android device (with USB Debugging enabled) or start an emulator.
-- Click "Run" (green play button) or use:
+- Click "Run" button or use:
 
 ```sh
 ./gradlew installDebug
@@ -109,21 +105,23 @@ git clone https://github.com/kzi-nastava/ma-project-event-planner-siit-2024-team
 The system supports the following roles with corresponding credentials:
 
 - **Organizer**
+
   - Email: `organizer@gmail.com`
   - Password: `pera`
 
 - **Service and product provider**
+
   - Email: `provider@gmail.com`
   - Password: `pera`
 
 - **Administrator**
+
   - Email: `admin@gmail.com`
   - Password: `pera`
 
 - **User (registered via quick registration)**
   - Email: `user@gmail.com`
   - Password: `pera`
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,19 +154,19 @@ You can view additional screenshots in the [screenshots](./screenshots) folder.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/kzi-nastava/ma-project-event-planner-siit-2024-team-13.svg?style=for-the-badge
-[contributors-url]: https://github.com/kzi-nastava/ma-project-event-planner-siit-2024-team-13/graphs/contributors
-[license-shield]: https://img.shields.io/github/license/kzi-nastava/ma-project-event-planner-siit-2024-team-13.svg?style=for-the-badge
-[license-url]: https://github.com/kzi-nastava/ma-project-event-planner-siit-2024-team-13/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/anasinik/eventorium-mobile-app.svg?style=for-the-badge
+[contributors-url]: https://github.com/anasinik/eventorium-mobile-app/graphs/contributors
+[license-shield]: https://img.shields.io/github/license/anasinik/eventorium-mobile-app.svg?style=for-the-badge
+[license-url]: https://github.com/anasinik/eventorium-mobile-app/blob/master/LICENSE.txt
 [android-shield]: https://img.shields.io/badge/Android-API%2034-3DDC84?logo=android&logoColor=white
 [java-shield]: https://img.shields.io/badge/Java-18-red?logo=java&logoColor=white
-[studio-shield]: https://img.shields.io/badge/Android%20Studio-Hedgehog-FD6F00?logo=ladybug&logoColor=white  
+[studio-shield]: https://img.shields.io/badge/Android%20Studio-Hedgehog-FD6F00?logo=ladybug&logoColor=white
 [gradle-shield]: https://img.shields.io/badge/Gradle-8.9-02303A?logo=gradle&logoColor=white
 [xml-shield]: https://img.shields.io/badge/XML-Layouts-FF6600?logo=xml&logoColor=white
-[android-url]: https://developer.android.com/about/versions/14  
-[java-url]: https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html  
-[studio-url]: https://developer.android.com/studio/archive#hedgehog  
-[gradle-url]: https://docs.gradle.org/8.9/release-notes.html  
+[android-url]: https://developer.android.com/about/versions/14
+[java-url]: https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html
+[studio-url]: https://developer.android.com/studio/archive#hedgehog
+[gradle-url]: https://docs.gradle.org/8.9/release-notes.html
 [xml-url]: https://www.w3.org/XML/
-[last-commit-shield]: https://img.shields.io/github/last-commit/kzi-nastava/ma-project-event-planner-siit-2024-team-13?branch=main&style=for-the-badge
-[last-commit-url]: https://github.com/kzi-nastava/ma-project-event-planner-siit-2024-team-13/commits/main
+[last-commit-shield]: https://img.shields.io/github/last-commit/anasinik/eventorium-mobile-app?branch=main&style=for-the-badge
+[last-commit-url]: https://github.com/anasinik/eventorium-mobile-app/commits/main
